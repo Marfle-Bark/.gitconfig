@@ -1,0 +1,21 @@
+[user]
+	name = Marfle-Bark
+	email = ethan.busbee@gmail.com
+	
+[alias]
+    st = status
+    cim = commit -m
+    br = branch
+    ch = checkout
+    cob = checkob -b 
+    
+    mpatch = format-patch master --stdout > 
+    rmd = rm `git ls-files --deleted`
+    
+    unstage-all = reset HEAD .
+    unstage-file = reset HEAD 
+    
+    soft-reset = reset HEAD~1
+    hard-reset = reset --hard HEAD~1
+    
+    untrack-file = rm --cached
