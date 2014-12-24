@@ -1,21 +1,20 @@
 [user]
-	name = Marfle-Bark
-	email = ethan.busbee@gmail.com
+	name = INSERT YOUR GITHUB USERNAME HERE
+	email = INSERT YOUR GITHUB EMAIL ADDRESS HERE
 	
 [alias]
     st = status
     cim = commit -m
+    cima = commit -am
     br = branch
     ch = checkout
-    cob = checkob -b 
-    
-    mpatch = format-patch master --stdout > 
-    rmd = rm `git ls-files --deleted`
+    cob = checkout -b 
     
     unstage-all = reset HEAD .
     unstage-file = reset HEAD 
     
     soft-reset = reset HEAD~1
     hard-reset = reset --hard HEAD~1
+    rollback = 
     
     untrack-file = rm --cached
